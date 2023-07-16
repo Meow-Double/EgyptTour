@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <!--style-->
+    <!-- <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./css/media.css"> -->
+    <link rel="stylesheet" href="./css/base.min.css">
+
+    <!--libs-->
+    <script src="./libs/iconify.min.js" defer></script>
+    <!-- <script src="./libs/gsap.min.js" defer></script>
+    <script src="./libs/ScrollSmoother.min.js" defer></script>
+    <script src="./libs/ScrollTrigger.min.js" defer></script> -->
+
+    <!--JavaScript-->
+    <!-- <script src="./js/main.js" defer></script> -->
+    <script src="./js/main.min.js" defer></script>
+</head>
+<body>
+
+    <!-- Начало: Данный блок удалять нельзя -->
+    <div class="maketforfigma">
+        <a href="https://t.me/s/FigmaToHTML" target="_blank">
+            <img src="img/logo.png">
+        </a>
+        <div>
+            <p>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+            </p>
+            <p>
+                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+            </p>
+        </div>
+    </div>
+    <!-- Конец -->
+
+    <div class="main">
+
+            <header class="header">
+                <div class="container">
+                    <nav class="nav">
+                        <div class="nav__row--left">
+                            <a href="#!" class="logo">
+                                <span class="logo-text">EgyptTour</span>
+                            </a>
+                            <div class="nav__input-search">
+                                <span class="iconify nav__input-ico" data-icon="charm:search"></span>
+                                    <input type="text" class="nav__input" placeholder="Search"> 
+
+                            </div>    
+                        </div>
+                        <div class="burger-window">
+                            <div class="nav__row--right">
+                                <ul class="nav__menu">
+                                    <li class="nav__item"><a href="#!" class="nav__item-link">Home</a></li>
+                                    <li class="nav__item"><a href="#!" class="nav__item-link">Guides</a></li>
+                                    <li class="nav__item"><a href="#!" class="nav__item-link">About</a></li>
+                                    <li class="nav__item"><a href="#!" class="nav__item-link">Inspiration</a></li>
+                                    <li class="nav__item"><a href="#!" class="nav__item-link">Contact</a></li>
+                                </ul>
+                                <button class="nav__btn button">Sign Up</button>   
+
+                            </div>
+ 
+                        </div>
+                        <div class="burger">
+                                <div class="burger-items">
+                                    <span class="burger-line burger-line--first"></span>
+                                    <span class="burger-line burger-line--middle"></span>
+                                    <span class="burger-line burger-line--last"></span>
+                                </div>
+                        </div>  
+                    </nav> 
+                </div>   
+                <div class="header__inner">
+                        <h1 class="header__title layer layer-middle ">Find the Best Egyptian Guide</h1>
+                        <div class="layer layer-back" style="background-image: url(./img/layer-back.jpg);"></div>
+                        <div class="layer layer-front" style="background-image: url(./img/layer-front.png);"></div>
+                </div>
+       
+            </header>
+            <main>
+                <section class="menu">
+                    <div class="container">
+                        <div class="menu__inner">
+                            <ul class="menu__items">
+                                <li class="menu__item">
+                                    <h3 class="menu__item-title">Gender</h3>
+                                    <div class="menu__item-accordion" data-accordion="menu1">
+                                        <div class="menu__item-text">Male</div>
+                                        <span class="menu__item-arrow iconify" data-icon="iconamoon:arrow-down-2-light"></span>   
+                                    </div>
+                                    <ul class="menu__dropdown menu1">
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 1</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 2</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item--line">
+                                    <span class="menu__item--line"></span>
+                                </li>
+                                <li class="menu__item">
+                                    <h3 class="menu__item-title">Age</h3>
+                                    <div class="menu__item-accordion" data-accordion="menu2">
+                                        <div class="menu__item-text">24+</div>
+                                        <span class="menu__item-arrow iconify" data-icon="iconamoon:arrow-down-2-light"></span>   
+                                    </div>
+                                    <ul class="menu__dropdown menu2">
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 1</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 2</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item--line">
+                                    <span class="menu__item--line"></span>
+                                </li>
+                                <li class="menu__item">
+                                    <h3 class="menu__item-title">Language</h3>
+                                    <div class="menu__item-accordion" data-accordion="menu3">
+                                        <div class="menu__item-text">English, Arabic</div>
+                                        <span class="menu__item-arrow iconify" data-icon="iconamoon:arrow-down-2-light"></span>   
+                                    </div>
+                                    <ul class="menu__dropdown menu3">
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 1</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 2</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item--line">
+                                    <span class="menu__item--line"></span>
+                                </li>
+                                <li class="menu__item">
+                                    <h3 class="menu__item-title">Lacalisation</h3>
+                                    <div class="menu__item-accordion" data-accordion="menu4">
+                                        <div class="menu__item-text">Cairo</div>
+                                        <span class="menu__item-arrow iconify" data-icon="iconamoon:arrow-down-2-light"></span>   
+                                    </div>
+                                    <ul class="menu__dropdown menu4">
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 1</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 2</a>
+                                        </li>
+                                        <li class="menu__dropdown-item">
+                                            <a class="menu__dropdown-link" href="#!">item 3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item menu__item-btn-box">
+                                    <button class="menu__item-btn button">Search</button>
+                                </li>
+                            </ul>
+                            <div class="menu__info">
+                                <h2 class="menu__title title">Guides for you!</h2>
+                                <button class="menu__btn button">See All Guides</button>    
+                                <ul class="menu__card">
+                                <li class="menu__card-item">
+                                    <a href="#!" class="menu__card-link">
+                                        <img src="./img/menu-person-1.png" alt="" class="menu__card-img">
+                                        <h3 class="menu__card-title">Abayomi Mallik</h3>
+                                        <div class="menu__card-stars">
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                        </div>
+                                        <div class="menu__card-text">1000+ reviews</div>
+                                    </a>
+                                </li>
+                                <li class="menu__card-item">
+                                    <a href="#!" class="menu__card-link">
+                                        <img src="./img/menu-person-2.png" alt="" class="menu__card-img">
+                                        <h3 class="menu__card-title">Berenike Eman</h3>
+                                        <div class="menu__card-stars">
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                        </div>
+                                        <div class="menu__card-text">1000+ reviews</div>
+                                    </a>
+                                </li>
+                                <li class="menu__card-item">
+                                    <a href="#!" class="menu__card-link">
+                                        <img src="./img/menu-person-3.png" alt="" class="menu__card-img">
+                                        <h3 class="menu__card-title">Abu Bakar</h3>
+                                        <div class="menu__card-stars">
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                        </div>
+                                        <div class="menu__card-text">1000+ reviews</div>
+                                    </a>
+                                </li>
+                                <li class="menu__card-item">
+                                    <a href="#!" class="menu__card-link">
+                                        <img src="./img/menu-person-4.png" alt="" class="menu__card-img">
+                                        <h3 class="menu__card-title">Dendera Heba</h3>
+                                        <div class="menu__card-stars">
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                            <span class="menu__card-star-ico iconify" data-icon="tabler:star-filled"></span>
+                                        </div>
+                                        <div class="menu__card-text">1000+ reviews</div>
+                                    </a>
+                                </li>
+
+
+                                </ul>
+                            </div>
+
+                           
+
+                        </div>
+                    </div>
+                </section>
+
+                <section class="work">
+                    <div class="container">
+                        <div class="work__inner">
+                            <h2 class="work__title title">How does it Work?</h2>
+                            <div class="work__cards">
+                                <a href="#!" class="work__card">
+                                    <div class="work__card-img-box">
+                                        <img src="./img/work-circle-1.jpg" alt="" class="work__card-img">
+                                        <img src="./img/work-card-person-1.png" alt="" class="work__card-img-person">
+                                    </div>
+                                    <h4 class="work__card-title">Select a Guide</h4>
+                                </a>
+                                <a href="#!" class="work__card">
+                                    <div class="work__card-img-box">
+                                        <img src="./img/work-circle-2.jpg" alt="" class="work__card-img">
+                                        <img src="./img/work-card-person-2.png" alt="" class="work__card-img-person">
+                                    </div>
+                                    <h4 class="work__card-title">Contact
+                                        Guide</h4>
+                                </a>
+                                <a href="#!" class="work__card">
+                                    <div class="work__card-img-box">
+                                        <img src="./img/work-circle-3.jpg" alt="" class="work__card-img">
+                                        <img src="./img/work-card-person-3.png" alt="" class="work__card-img-person">
+                                    </div>
+                                    <h4 class="work__card-title">Create your Travel</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="guide">
+                    <div class="container">
+                        <div class="guide__content">
+                            <div class="guide__inner">
+                                <h2 class="guide__title guide-layer guide-layer-middle">Are you a Tourist Guide in Egypt?</h2>
+                                <div class="guide-layer guide-layer-front" style="background-image: url(./img/guide-layer-front.png);"></div>
+                                <div class="guide-layer guide-layer-back" style="background-image: url(./img/guide-layer-back.jpg);"></div>
+                            </div>
+                            <div class="guide__card">
+                                <h3 class="guide__card-title">Be referenced on our site, 
+                                    <span class="guide__card-title--decor-color">it's 100% free!</span>
+                                </h3>
+                                <div class="guide__card-info">
+                                    <button class="guide__card-btn button">I am a Tourist Guide</button>
+                                    <div class="guide__card-persone">
+                                        <img src="./img/guide-card-persone-1.png" alt="" class="guide__card-persone-ico guide__card-persone-ico--first">
+                                        <img src="./img/guide-card-persone-2.png" alt="" class="guide__card-persone-ico guide__card-persone-ico--second">
+                                        <img src="./img/guide-card-persone-3.png" alt="" class="guide__card-persone-ico guide__card-persone-ico--third">
+                                        <img src="./img/guide-card-persone-4.png" alt="" class="guide__card-persone-ico guide__card-persone-ico--fourth">
+                                        
+                                    </div>
+                                    <div class="guide__card-persone-text">
+                                            <span class="guide__card-persone-text--decor-color">1000+ </span>
+                                            tourist join us
+                                        </div>
+                                </div>
+                            </div>    
+                        </div>
+                        
+                    </div>
+                </section>
+                <section class="about">
+                    <div class="container">
+                        <div class="about__inner">
+                            <h2 class="about__title title">Learn more About Egypt</h2>
+                            <div class="about__cards">
+                                <div class="about__card about__card--2frame">
+                                    <img src="./img/about-img-1.jpg" alt="" class="about__card-img">
+                                    <div class="about__card-info">
+                                        <div class="about__card-name">Hotel</div>
+                                        <a href="#!" class="about__card-link">
+                                            Where to sleep in Luxor?
+                                            <span class="about__card-arrow iconify" data-icon="iconoir:arrow-tr"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="about__card about__card--frame">
+                                    <img src="./img/about-img-2.jpg" alt="" class="about__card-img">
+                                    <div class="about__card-info">
+                                        <div class="about__card-name">Restaurant</div>
+                                        <a href="#!" class="about__card-link">
+                                            5 restaurant in Cairo
+                                            <span class="about__card-arrow iconify" data-icon="iconoir:arrow-tr"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="about__card about__card--frame">
+                                    <img src="./img/about-img-2.jpg" alt="" class="about__card-img">
+                                    <div class="about__card-info">
+                                        <div class="about__card-name">Advance & Tip</div>
+                                        <a href="#!" class="about__card-link">
+                                            Is Egypt dangerous?
+                                            <span class="about__card-arrow iconify" data-icon="iconoir:arrow-tr"></span>
+                                        </a>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <ul class="footer__items">
+                            <li class="footer__item">
+                                <h4 class="footer__item-title">EgyptTour</h4>
+                                <div class="footer__item-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__item-subtitle">Useful Links</h4>
+                                <a href="#!" class="footer__item-link">About</a>
+                                <a href="#!" class="footer__item-link">Guide</a>
+                                <a href="#!" class="footer__item-link">Inspiration</a>
+                                <a href="#!" class="footer__item-link">Contact</a>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__item-subtitle">Resources</h4>
+                                <a href="#!" class="footer__item-link">Become a guide</a>
+                                <a href="#!" class="footer__item-link">Legal</a>
+                                <a href="#!" class="footer__item-link">Blog</a>
+                                <a href="#!" class="footer__item-link">Help</a>
+                            </li>
+                            <li class="footer__item">
+                                <h4 class="footer__item-subtitle">Contact Us</h4>
+                                <div class="footer__item-social-text">
+                                    <span class="footer__social-text-ico iconify" data-icon="quill:mail"></span>
+                                    <a href="#!" class="footer__social-text-link">infomail@gmail.com</a>
+                                </div>
+                                <div class="footer__item-social-text">   
+                                    <span class="footer__social-text-ico iconify" data-icon="ic:outline-place"></span>
+                                    <a href="#!" class="footer__social-text-link">48 Street Road, Cairo</a>
+                                </div>
+                                <div class="footer__social-items">
+                                    <a href="#!" class="footer__social-item">
+                                        <span class="footer__social-item-ico iconify" data-icon="bxl:facebook"></span>
+                                    </a>
+                                    <a href="#!" class="footer__social-item">
+                                        <span class="footer__social-item-ico iconify" data-icon="akar-icons:twitter-fill"></span>
+                                    </a>
+                                    <a href="#!" class="footer__social-item">
+                                        <span class="footer__social-item-ico iconify" data-icon="mdi:instagram"></span>
+                                    </a>
+                                    <a href="#!" class="footer__social-item">
+                                        <span class="footer__social-item-ico iconify" data-icon="ri:linkedin-fill"></span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer__info">
+                            <div class="footer__copyright">
+                                &#169; 2022 
+                                <span class="footer__copyright--decor-color">EgyptTour</span>
+                            </div>
+                            <div class="footer__info-items">
+                                <div class="footer__info-item">Privacy Policy</div>
+                                <div class="footer__info-item">Term of Condition</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>    
+    </div>
+
+</body>
+</html>
+
+
