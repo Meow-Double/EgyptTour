@@ -42,154 +42,153 @@ burgerBtn.addEventListener("click", () => {
 
 // ------------------Animation--------------
 
-// gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 // ScrollSmoother.create({
 //   wrapper: ".main",
 //   content: ".wrapper",
 // });
 
-// const header = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".header",
-//     start: "50% 56%",
-//     scrub: true,
-//   },
-// });
+const header = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".header",
+    start: "50% 56%",
+    scrub: true,
+  },
+});
 
-// header
-//   .fromTo(
-//     ".layer-middle",
-//     { y: 0 },
-//     {
-//       y: 110,
-//     },
-//     0
-//   )
-//   .fromTo(
-//     ".layer-front",
-//     { y: 0 },
-//     {
-//       y: 140,
-//     },
-//     0
-//   )
-//   .fromTo(
-//     ".menu__items",
-//     {
-//       y: 60,
-//     },
-//     {
-//       y: 0,
-//     },
-//     0
-//   );
+header
+  .fromTo(
+    ".layer-middle",
+    { y: 0 },
+    {
+      y: 110,
+    },
+    0
+  )
+  .fromTo(
+    ".layer-front",
+    { y: 0 },
+    {
+      y: 140,
+    },
+    0
+  )
+  .fromTo(
+    ".menu__items",
+    {
+      y: 60,
+    },
+    {
+      y: 0,
+    },
+    0
+  );
 
-// const guide = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".guide",
-//     start: "20% 60%",
-//     scrub: true,
-//   },
-// });
+const guide = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".guide",
+    start: "20% 60%",
+    scrub: true,
+  },
+});
 
-// guide
-//   .fromTo(
-//     ".guide-layer-middle",
-//     { y: 0 },
-//     {
-//       y: 120,
-//     },
-//     0
-//   )
-//   .fromTo(
-//     ".guide-layer-front",
-//     { y: 0 },
-//     {
-//       y: 140,
-//     },
-//     0
-//   );
+guide
+  .fromTo(
+    ".guide-layer-middle",
+    { y: 0 },
+    {
+      y: 120,
+    },
+    0
+  )
+  .fromTo(
+    ".guide-layer-front",
+    { y: 0 },
+    {
+      y: 140,
+    },
+    0
+  );
 
-// // ------------
+// ------------
 
-// const menu = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".menu",
-//     start: "10% 80%",
-//     end: "30% 60%",
-//     scrub: true,
-//   },
-// });
+const menu = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".menu",
+    start: "10% 80%",
+    end: "30% 60%",
+    scrub: true,
+  },
+});
 
-// menu
-//   .fromTo(
-//     ".menu__title",
-//     {
-//       opacity: 0,
-//       x: -120,
-//     },
-//     { opacity: 1, x: 0 },
-//     0
-//   )
-//   .fromTo(
-//     ".menu__btn",
-//     {
-//       opacity: 0,
-//     },
-//     {
-//       opacity: 1,
-//     },
-//     0
-//   );
+menu
+  .fromTo(
+    ".menu__title",
+    {
+      opacity: 0,
+      x: -120,
+    },
+    { opacity: 1, x: 0 },
+    0
+  )
+  .fromTo(
+    ".menu__btn",
+    {
+      opacity: 0,
+    },
+    {
+      opacity: 1,
+    },
+    0
+  );
 
-// gsap.fromTo(
-//   ".menu__card-item",
-//   {
-//     opacity: 0,
-//     y: 100,
-//   },
-//   {
-//     opacity: 1,
-//     y: 0,
+gsap.fromTo(
+  ".menu__card-item",
+  {
+    opacity: 0,
+    y: 100,
+  },
+  {
+    opacity: 1,
+    y: 0,
 
-//     scrollTrigger: {
-//       trigger: ".menu",
-//       start: "34% 80%",
-//       end: "+=220",
-//       scrub: true,
-//     },
-//   }
-// );
+    scrollTrigger: {
+      trigger: ".menu",
+      start: "34% 80%",
+      end: "+=220",
+      scrub: true,
+    },
+  }
+);
 
-// gsap.fromTo(
-//   ".work__title",
-//   {
-//     opacity: 0,
-//     y: 60,
-//   },
-//   {
-//     opacity: 1,
-//     y: 0,
-//     scrollTrigger: {
-//       trigger: ".work",
-//       start: "10% 80%",
-//       end: "+=300",
-//       scrub: true,
-//     },
-//   }
-// );
+gsap.fromTo(
+  ".work__title",
+  {
+    opacity: 0,
+    y: 60,
+  },
+  {
+    opacity: 1,
+    y: 0,
+    scrollTrigger: {
+      trigger: ".work",
+      start: "10% 80%",
+      end: "+=300",
+      scrub: true,
+    },
+  }
+);
 
-// const workCard = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".work",
-//     start: "50% 60%",
-//     markers:true,
-//   },
-// });
+const workCard = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".work",
+    start: "50% 60%",
+  },
+});
 
-// workCard.fromTo(".work__card",{
-// opacity:0,
+workCard.fromTo(".work__card",{
+opacity:0,
 
-// },{
-// opacity:1,
-// })
+},{
+opacity:1,
+})
